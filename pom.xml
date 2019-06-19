@@ -14,7 +14,7 @@
     <artifactId>parent-bom</artifactId>
     <version>0.0.1</version>
     <name>demo</name>
-    <description>Demo project for Spring Boot and adding custom parent</description>
+    <description>Demo project for Spring Boot and adding custom parent BOM</description>
 	<packaging>pom</packaging>
 
     <properties>
