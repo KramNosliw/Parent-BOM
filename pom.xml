@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     
-    <groupId>com.example</groupId>
+    <groupId>com.example.pp</groupId>
     <artifactId>parent-bom</artifactId>
     <version>0.0.1</version>
     <name>demo</name>
@@ -19,19 +19,19 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <tika.version>1.18</tika.version>
     </properties>
 
-    <dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+			    <groupId>org.apache.tika</groupId>
+		    	<artifactId>tika-core</artifactId>
+		    	<version>${tika.version}</version>
+			</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-core -->
-<dependency>
-    <groupId>org.apache.tika</groupId>
-    <artifactId>tika-core</artifactId>
-    <version>1.18</version>
-</dependency>
-
-
-    </dependencies>
+    	</dependencies>
+	</dependencyManagement>
 
 
 </project>
