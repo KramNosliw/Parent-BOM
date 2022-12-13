@@ -44,7 +44,7 @@
         
         <tika.version>1.18</tika.version>
         <fop.version>2.3</fop.version>
-        <cxf.version>3.1.15</cxf.version>
+        <cxf.version>3.4.10</cxf.version>
         <iban4j.version>3.2.1</iban4j.version>
         
 <!--         <guava.version>20.0</guava.version> -->
